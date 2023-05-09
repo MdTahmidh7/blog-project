@@ -1,19 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index Page</title>
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;1,100;1,300;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font awsome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-</head>
-<body>
-    
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header starts here  -->
+    <header id="blog-header">
+      <figure class="logo-figure">
+        <i class="fab fa-autoprefixer logo"></i>
+      </figure>
+      <nav id="menu-icon">
+        <ul>
+          <li><a href="#" class="nav__link text-white">Home</a></li>
+          <li><a href="#about-blog" class="nav__link text-white">About</a></li>
+          <li><a href="#archives" class="nav__link text-white">Archieve</a></li>
+          <li><a href="#blog-post" class="nav__link text-white">Blog-Post</a></li>
+          <li><a href="#contact" class="nav__link text-white">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- header ends here  -->
+    <main>
+      <!-- blog-banner-section starts here  -->
+      <div class="banner" id="blog-banner-section">
+        <article>
+          <h1 class="banner__heading">Web Development</h1>
+          <p class="banner__description text-justify">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet aut
+            inventore voluptatem? Culpa, ullam tenetur! Ea earum molestias
+            unde.Quibusdam voluptatibus facilis in sapiente officia possimus quo
+            consectetur magni architecto.
+          </p>
+        </article>
+        <aside>
+          <img
+            class="banner__image"
+            src="./images/cover-photo.jpg"
+            alt="Cover photo"
+          />
+        </aside>
+      </div>
+      <!-- blog-banner-section starts here  -->
+      <!-- about me section starts here  -->
+      <section id="about-blog" class="section-center">
+        <h2 class="section-heading text-white">About Me</h2>
+        <div class="cards">
+          <div class="card">
+            <h3 class="card__heading">Heading1</h3>
+            <p class="card__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus, reprehenderit?
+            </p>
+            <button class="card__button btn">Read Me</button>
+          </div>
+          <div class="card">
+            <h3 class="card__heading">Heading1</h3>
+            <p class="card__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus, reprehenderit?
+            </p>
+            <button class="card__button btn">Read Me</button>
+          </div>
+          <div class="card">
+            <h3 class="card__heading">Heading1</h3>
+            <p class="card__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus, reprehenderit?
+            </p>
+            <button class="card__button btn">Read Me</button>
+          </div>
+        </div>
+      </section>
+      <!-- about me section starts here  -->
+      <!-- archive section starts here  -->
+      <section class="section-center" id="archives">
+        <h1 class="section-heading">Archives</h1>
+        <div class="archive-container">
+          <ul class="archive-container__lists">
+            <li class="archive__list">
+              <img
+                class="archive__image"
+                src="./images/img-1.jpg"
+                alt="image"
+              />
+            </li>
+            <li class="archive__list">
+              <img
+                class="archive__image"
+                src="./images/img-2.jpg"
+                alt="image"
+              />
+            </li>
+            <li class="archive__list">
+              <img
+                class="archive__image"
+                src="./images/img-3.jpg"
+                alt="image"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- archive section starts here  -->
 
+      <!-- blog post starts here  -->
+      <section class="section-center" id="blog-post">
+        <h1 class="section-heading">Blog Post</h1>
+        <div class="blog-posts">
+          <div class="blog-post">
+            <div class="left">
+              <img class="left__image" src="./images/img-2.jpg" alt="image" />
+            </div>
+            <div class="right">
+              <h2 class="right__heading">Main Heading</h2>
+              <h3 class="right__sub-heading">Sub Heading</h3>
+              <p class="right__paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
+                ex quaerat sequi amet quos accusantium!
+              </p>
+              <button class="blog-post__buton">Learn more</button>
+            </div>
+          </div>
+          <div class="blog-post">
+            <div class="left">
+              <img class="left__image" src="./images/img-2.jpg" alt="image" />
+            </div>
+            <div class="right">
+              <h2 class="right__heading">Main Heading</h2>
+              <h3 class="right__sub-heading">Sub Heading</h3>
+              <p class="right__paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
+                ex quaerat sequi amet quos accusantium!
+              </p>
+              <button class="blog-post__buton">Learn more</button>
+            </div>
+          </div>
+          <div class="blog-post">
+            <div class="left">
+              <img class="left__image" src="./images/img-2.jpg" alt="image" />
+            </div>
+            <div class="right">
+              <h2 class="right__heading">Main Heading</h2>
+              <h3 class="right__sub-heading">Sub Heading</h3>
+              <p class="right__paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
+                ex quaerat sequi amet quos accusantium!
+              </p>
+              <button class="blog-post__buton">Learn more</button>
+            </div>
+          </div>
+          <div class="blog-post">
+            <div class="left">
+              <img class="left__image" src="./images/img-2.jpg" alt="image" />
+            </div>
+            <div class="right">
+              <h2 class="right__heading">Main Heading</h2>
+              <h3 class="right__sub-heading">Sub Heading</h3>
+              <p class="right__paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
+                ex quaerat sequi amet quos accusantium!
+              </p>
+              <button class="blog-post__buton">Learn more</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- blog post starts here  -->
 
+      <!-- contact section starts here  -->
 
+      <section class="section-center" id="contact">
+        <h1 class="section-heading text-white">Contact Me</h1>
+        <form> 
+          <div class="form-control">
+            <label for="name">Name</label>
+            <input type="text" id="name" autocomplete="name" required>
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" id="email" autocomplete="email" required>
+          </div>
+          <div class="form-control">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" ></textarea>
+          </div>
+          <div class="form-control form-button-feild">
+            <button class="btn contact-btn">Submit</button>
+          </div>
+        </form>
+      </section>
+      <!-- contact section ends here  -->
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <article class="footer-text">
+          Copy &copy; Abdullah Al Tahmid. All rights reserved.
+        </article>
+        <aside class="footer-icon">
+          <a href="#blog-banner-section"><i class="fa-solid fa-house text-white"></i></a>
+          <a href="https://www.facebook.com/mdtahmidh7" target="_blank"> <i class="fa-brands fa-facebook text-white"></i> </a>
+          <a href="#"><i class="fa-brands fa-github text-white"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin text-white"></i></a>
+        </aside>
+      </div>
+    </footer>
 
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
