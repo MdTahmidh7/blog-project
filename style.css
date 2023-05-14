@@ -58,6 +58,17 @@ body {
 
 /* Reset code and Common code ends here */
 /* header starts here  */
+
+.menu{
+  display: none;
+  font-size: 4rem;
+  padding: .5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.menu:hover{
+  color: #9c01d0;
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -360,12 +371,19 @@ textarea{
   }
 }
 @media screen and (max-width: 600px) {
+
   html {
     font-size: 48.5%;
     background-color: rgb(208, 127, 255);
   }
   header {
     flex-direction: column;
+  }
+  .hidden{
+    display: none;
+  }
+  .menu{
+    display: block;
   }
   nav ul {
     flex-direction: column;
